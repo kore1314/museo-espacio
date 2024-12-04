@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #f1f1f1;
+}
+header {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #ff5722;
+}
+.section {
+    padding: 2rem;
+}
+footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
